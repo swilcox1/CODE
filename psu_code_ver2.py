@@ -1,9 +1,7 @@
 import time
 import serial
 
-# Configure your connection.
-# Windows typically uses 'COM3', 'COM4', etc.
-# Linux/Mac uses '/dev/ttyUSB0' or '/dev/tty.usbserial...'
+
 SERIAL_PORT = 'COM3'
 BAUD_RATE = 9600  # Korad PSUs default to 9600 baud
 
